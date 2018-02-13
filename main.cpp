@@ -7,6 +7,11 @@ int add (int x, int y)
     return x+y;
 }
 
+int sub (int x, int y)
+{
+    return x-y;
+}
+
 void print()
 {
     cout << "Enter a number: \n";
@@ -18,15 +23,12 @@ void print()
     cout << "Substraction of both is: " << sub(x, y) << "\n";
 }
 
-int sub (int x, int y)
-{
-    return x-y;
-}
 
 
 int main()
 {
     cout << "Hello world!" << endl;
+    cout << "Goodbye, world!\n";
     print();
     return 0;
 }
