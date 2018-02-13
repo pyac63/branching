@@ -20,6 +20,7 @@ void print()
 int main()
 {
     cout << "Hello world!" << endl;
+    cout << "Goodbye, world!\n";
     print();
     return 0;
 }
